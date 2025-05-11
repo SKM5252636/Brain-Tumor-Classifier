@@ -11,21 +11,6 @@ The system is wrapped in a user-friendly **Gradio interface** for image upload a
 
 ---
 
-## 📁 Project Directory Structure
-
-brain_tumor_classifier/
-│
-├── brain_tumor_classifier.py # Main script containing training and Gradio app
-├── README.md # Project documentation
-└── Training/ # Dataset folder with categorized images
-      ├── glioma/
-      ├── meningioma/
-      ├── notumor/
-      └── pituitary/
-
-
----
-
 ## 🧠 Model Overview
 
 The model is a custom CNN built using TensorFlow/Keras with the following architecture:
